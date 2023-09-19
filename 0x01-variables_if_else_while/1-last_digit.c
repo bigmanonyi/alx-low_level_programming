@@ -6,11 +6,10 @@
  *
  * Return: 0 (Succcess)
  */
-
 int main(void)
 {
 	int n;
-	
+
 	int m;
 
 	srand(time(0));
