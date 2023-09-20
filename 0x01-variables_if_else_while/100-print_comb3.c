@@ -15,8 +15,8 @@ int main(void)
 		{
 			if (!((ones == tens) || (tens > ones)))
 			{
-				putchar(ones);
 				putchar(tens);
+				putchar(ones);
 				if (!(ones == '9' && tens == '8'))
 				{
 					putchar(',');
